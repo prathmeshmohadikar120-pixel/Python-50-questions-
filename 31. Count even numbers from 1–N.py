@@ -1,3 +1,3 @@
-n = int(input("Enter N: "))
-for i in range(1, n + 1):
-    print(i)
+n = int(input("enter n(even) :"))
+for i in range(0, n+1,2):
+  print(i)
