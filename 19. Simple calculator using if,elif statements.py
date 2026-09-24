@@ -1,3 +1,5 @@
+#first method
+
 a = float(input("Enter the first number: "))
 b = float(input("Enter the second number: "))
 operator = input("Enter an operator : ")
@@ -17,3 +19,11 @@ elif operator == '/':
 
 else:
     print("wrong input / invlid")
+#second method
+a = float(input("Enter the first number: "))
+b = float(input("Enter the second number: "))
+operator = input("Enter an operator: ")
+
+result = eval(f"{a}{operator}{b}")
+
+print(f"{a} {operator} {b} = {result}")
