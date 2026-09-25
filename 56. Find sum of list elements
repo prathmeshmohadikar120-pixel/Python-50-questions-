@@ -1,1 +1,2 @@
-
+list = [1,243,432,22]
+print(sum(list))
