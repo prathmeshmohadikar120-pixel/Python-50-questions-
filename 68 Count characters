@@ -1,1 +1,3 @@
-
+str = "hi I am good"
+count = str.count("o")
+print(count)
